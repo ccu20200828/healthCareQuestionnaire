@@ -1,0 +1,39 @@
+#passImage{
+    display:none;
+    text-align:center;
+	color : rgb(61,102,140);
+}
+
+#passImagePicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 95%;
+}
+
+#passImageDate{
+    font-size:100px;
+}
+
+#title{
+    font-size:80px;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+body {
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+
+    background-image: url('background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
