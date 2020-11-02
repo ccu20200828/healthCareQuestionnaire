@@ -1,7 +1,24 @@
+#askName{
+    margin-top: 20%;
+}
+#askName>form>*{
+    color : rgb(61,102,140);
+    font-size:100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:80%;
+    display:block;
+}
 #passImage{
     display:none;
     text-align:center;
 	color : rgb(61,102,140);
+}
+
+#warning{
+    margin-top: 10%;
+    font-size:30px;
 }
 
 #passImagePicture{
@@ -12,6 +29,9 @@
     width: 95%;
 }
 
+#name{
+    font-size:100px;
+}
 #passImageDate{
     font-size:100px;
 }

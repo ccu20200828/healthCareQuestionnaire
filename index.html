@@ -8,7 +8,8 @@
 <script src="index.js"></script>
 </head>
 <body>
-<div id="passImage"><img id="passImagePicture" src="logo.png" alt="中正大學校徽"><div id="title"></div><div id="passImageDate"></div></div>
+<div id="askName"><form><label for="nameInput">請在此輸入您的姓名讓我們再次確認您的身分:</label><br/><input type="text" id="nameInput" ><br/><input type="button" value="送出" onclick="changeWebPage()"></form></div>
+<div id="passImage"><div id="warning">請截圖此頁面以保留證明，若不小心刪除可再次填寫本表單以取得此證明</div><img id="passImagePicture" src="logo.png" alt="中正大學校徽"><div id="title"></div><div id="name"></div><div id="passImageDate"></div></div>
 </div>
 </body>
 </html>
